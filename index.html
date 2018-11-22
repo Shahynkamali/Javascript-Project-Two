@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Wine about it!</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Lobster+Two:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<head>
+		<div class="header">
+			<h1>Wine about it!</h1>
+		</div>
+	</head>
+	<section>
+		<div class="quiz">	
+			<div class="first-question">
+				<div class="title">
+					<h3>Red</h3>
+					<h3>White</h3>
+				</div>
+				<div class="firstQuestion">
+					<div class="red-img">
+						<label>
+							<input type="radio" id="red" value="red" name="type">
+							<img class="first-image-red" src="images/wine.svg" value="red">
+						</label>
+					</div>
+					<div class="red-img">
+						<label>
+							<input type="radio" id="white" value="white" name="type">
+							<img class="first-image-white" src="images/wine.svg">
+						</label>
+					</div>
+				</div>
+			</div>
+			<div class="red">
+				<div class="question">
+					<div class="wrap">
+						<div class="red-img">
+							<div class="title">
+								<h3>Fruity</h3> 
+								<h3>Earthy</h3>
+							</div>
+							<label for="wine">
+								<input type="radio" id="fruity" value="fruity" name="style">
+								<img class="second-image-fruit" src="images/fruit-forward.svg">
+							</label>
+						</div>
+						<div class="red-img">
+							<label for="wine">
+								<input type="radio" id="earthy" value="earthy" name="style">
+								<img class="second-image-earth" src="images/earth.svg">
+							</label>
+						</div>
+					</div>
+				</div>
+				<div class="question">
+					<div class="wrap">
+						<div class="red-img">
+							<div class="title">
+								<h3>Light Bodied</h3>
+								<h3>Full Bodied</h3>
+							</div>
+							<label for="wine">
+								<input type="radio" id="lightBody" value="light-bodied" name="body">
+								<img class="third-image-lightbody" src="images/light-bodied.svg">
+							</label>
+						</div>
+						<div class="red-img">
+							<label for="wine">
+								<input type="radio" id="fullBody" value="full-bodied" name="body">
+								<img class="third-image-fullBody" src="images/full-bodied.svg">
+							</label>
+						</div>
+					</div>
+				</div>
+				<div class="question">
+					<div class="wrap">
+						<div class="red-img">
+							<div class="title">
+								<h3>Strawberry</h3>
+								<h3>Sour Cherry</h3>
+							</div>
+							<label for="wine">
+								<input type="radio" id="strawberry" value="strawberry" name="flavour">
+								<img class="fourth-image-strawberry" src="images/strawberry.svg">
+							</label>
+						</div>
+						<div class="red-img">
+							<label for="wine">
+								<input type="radio" id="sourCherry" value="sourCherry" name="flavour">
+								<img class="fourth-image-sourCherry" src="images/cherries.svg">
+							</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="white">
+				<div class="question">
+					<div class="wrap">
+						<div class="red-img">
+							<div class="title">
+								<h3>Oaked</h3>
+								<h3>Unoaked</h3>
+							</div>
+							<label for="wine">
+								<input type="radio" id="oaked" value="oaked" name="style">
+								<img class="second-image-oaked" src="images/wine-barrel.svg">
+							</label>
+						</div>	
+						<div class="red-img">
+							<label for="wine">
+								<input type="radio" id="non-oaked" value="non-oaked" name="style">
+								<img class="second-image-non-oaked" src="images/grape.svg">
+							</label>	
+						</div>
+					</div>
+				</div>
+				<div class="question">
+					<div class="wrap">
+						<div class="red-img">
+							<div class="title">
+								<h3>High Acidity</h3>
+								<h3>Low Acidity</h3>
+							</div>
+							<label for="wine">
+								<input type="radio" id="high-acidity" value="high-acidity" name="body">
+								<img class="third-image-highAcid" src="images/high-acid.svg">
+							</label>	
+						</div>
+						<div class="red-img">
+							<label for="wine">
+								<input type="radio" id="light-acidity" value="light-acidity" name="body">
+								<img class="third-image-lightAcid" src="images/light-acid.svg">
+							</label>	
+						</div>	
+					</div>	
+				</div>
+				<div class="question">
+					<div class="wrap">
+						<div class="red-img">
+							<div class="title">
+								<h3>Lemon</h3>
+								<h3>Grapefruit</h3>
+							</div>
+							<label for="wine">
+								<input type="radio" id="lemon" value="lemon" name="flavour">
+								<img class="fourth-image-lemon" src="images/lemon.svg">
+							</label>
+						</div>
+						<div class="red-img">
+							<label for="wine">
+								<input type="radio" id="grapefruit" value="grapefruit" name="flavour">
+								<img class="fourth-image-grapefruit" src="images/grapefruit.svg">
+							</label>
+						</div>	
+					</div>
+				</div>
+			</div>
+				<input id="button" type="submit" value="Give me my options!">
+				<div class="result"></div>
+				<div class="reset">
+					<button id="click" type ="reset" value="reset"><a href="#">Start Over!</a></button>
+				</div>
+		</div>
+	</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="script.js"></script>>	
+</body>
+</html>
